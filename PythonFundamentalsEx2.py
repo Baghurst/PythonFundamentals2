@@ -70,7 +70,15 @@ print("Give me three numbers")
 num1 = float(input("Enter number 1: "))
 num2 = float(input("Enter number 2: "))
 num3 = float(input("Enter number 3: "))
-num1 + num2 + num3 / 3
+avg_num = num1 + num2 + num3 / 3
+print(f"The average of the three numbers is {avg_num}.")
+
+#6
+
+PI=3.14
+radius = float(input("Tell me the raidius of a circle: "))
+volume = 3/4 * PI * radius
+#to be finished
 
 
 
@@ -79,6 +87,9 @@ num1 + num2 + num3 / 3
 
 
 
+#7
 
-
+print("Hello user!")
+name = input("What's your name?: ")
+age = input(f"How old are you {name}?: ")
 
